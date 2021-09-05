@@ -6,7 +6,7 @@
 /*   By: spencerwongyeongli <spencerwongyeongli@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 23:16:50 by spencerwong       #+#    #+#             */
-/*   Updated: 2021/07/20 23:30:32 by spencerwong      ###   ########.fr       */
+/*   Updated: 2021/08/23 22:00:35 by spencerwong      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,6 @@ char	*ft_strdup(const char *s1)
 		s2[i] = s1[i];
 		i++;
 	}
-	s2[i] == '\0';
+	s2[i] = '\0';
 	return (s2);
 }
